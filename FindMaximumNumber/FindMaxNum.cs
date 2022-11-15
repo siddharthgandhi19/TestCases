@@ -13,5 +13,16 @@
                 return c;
 
         }
+        public float FindMaxFloat(float a, float b, float c)
+        {
+
+            if (a > b && a > c)
+                return a;
+            if (b > c && b > a)
+                return b;
+            else
+                return c;
+
+        }
     }
 }
